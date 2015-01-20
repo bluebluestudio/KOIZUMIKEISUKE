@@ -41,6 +41,9 @@ h3 a {
 div#sidebar {
     display: none;
 }
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border:none;
+	}
 
 /* SLIDE */
 div#slide {
@@ -86,7 +89,7 @@ div#about h2, div#profile h2, div#service h2, #content h2.news, #access h2,#cont
     font-weight: 100;
     font-size: 3rem;
     /* font-style: italic; */
-    margin: 0;
+    margin: 0 0 10px;
 }
 
 
@@ -110,6 +113,10 @@ div#profile h1 {
 	font-size:1.6rem;
 }
 
+/* ACCESS */
+div#access .text {
+    overflow: auto;
+}
 
 /* SERVICE */
 div#service
@@ -121,8 +128,18 @@ div#service .list tr th,div#service .list tr td {
     padding: 16px 10px;
 }
 
+div#service .list tr th {
+    width: 8rem;
+}
+
 div#service .list table {
     border-bottom: 1px solid #ddd;
+}
+
+
+div#service .list table tr {
+    display: block;
+    border-top: 1px solid #ddd;
 }
 /* CONTACT */
 #contact .form {
@@ -163,7 +180,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     background: #EFEFEF;
     padding: 20px 30px;
     margin-top: 50px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #contact .information th {
@@ -200,6 +217,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     margin: 0;
     max-width: 100%;
 }
-	
+#footer {
+	font-size:0.5rem;
+}
 	
 }
