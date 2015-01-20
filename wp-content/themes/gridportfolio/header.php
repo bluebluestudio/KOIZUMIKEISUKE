@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head> 
-  <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>          
- 
+  <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" /> 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8"/>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style_002.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
@@ -57,9 +57,9 @@ $(document).ready(function(){
   
   
     <ul class="right_list">
-      <li><a href="http://www.twitter.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter-icon.png" /></a></li>
-      <li><a href="http://www.facebook.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook-icon.png" /></a></li>
-      <li><a href="http://www.flickr.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/rss-icon.png" /></a></li>
+      <li class="hidden"><a href="http://www.twitter.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter-icon.png" /></a></li>
+      <li><a href="https://www.facebook.com/keisuke0604"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook-icon.png" /></a></li>
+      <li class="hidden"><a href="http://www.flickr.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/rss-icon.png" /></a></li>
     </ul>
     
     <div class="clear"></div>

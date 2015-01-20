@@ -1,5 +1,44 @@
 @charset "UTF-8";
-/* CSS Document */
+
+/* COMMON */
+html {
+	 height: 100%;
+     
+	 overflow: hidden;
+	}
+html,body {
+    line-height: 1.8;
+    font-size: 14px;
+    font-family:"Roboto Regular","Helvetica Neue",Helvetica,Arial,"游ゴシック","YuGothic","Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro","Meiryo","メイリオ","ＭＳ ゴシック",sans-serif;;
+    color: #666;
+}
+h3 {
+    font-size: 1rem;
+}
+
+h3 a {
+    font-size: 1rem;
+}
+#header_container {
+	text-align: left;
+	border: none;
+	overflow: hidden;
+}
+#menu_container {
+    border-bottom: 1px dashed #eee;
+}
+#header_container a {
+    font-size: 5rem;
+    text-decoration: none;
+    padding: 40px;
+    display: block;
+    line-height: 3rem;
+}
+
+#header_container a .sub {
+    font-size: 3rem;
+}
+
 
 /* SLIDE */
 div#slide {
@@ -22,31 +61,7 @@ div#slide {
 }
 
 
-/* COMMON */
-html {
-    font-size: 12px;
-    height: 100%;
-    overflow: hidden;
-}
-#header_container {
-	text-align: left;
-	border: none;
-	overflow: hidden;
-}
-#menu_container {
-    border-bottom: 1px dashed #eee;
-}
-#header_container a {
-    font-size: 5rem;
-    text-decoration: none;
-    padding: 40px;
-    display: block;
-    line-height: 3rem;
-}
 
-#header_container a .sub {
-    font-size: 3rem;
-}
 
 /* ABOUT */
 #contents {
@@ -63,17 +78,17 @@ div#about,div#profile {
 
 
 
-div#about h2, div#profile h2,div#service h2, #content h2.news, #access h2 {
+div#about h2, div#profile h2, div#service h2, #content h2.news, #access h2,#contact h2 {
     margin-bottom: 20px;
     color: #C0C0C0;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: italic;
 }
 
 
 /* PROFILE */
-div#profile,div#service, div#access {
+div#profile, div#service, div#access,div#contact {
 	margin-top: 40px;
 	border-top: 1px solid #F4F4F4;
 	padding-top: 40px;
@@ -105,8 +120,51 @@ div#service .list tr th,div#service .list tr td {
 div#service .list table {
     border-bottom: 1px solid #ddd;
 }
+/* CONTACT */
+#contact .form {
+    margin: 40px 0;
+    overflow: hidden;
+}
+#contact .form table {
+	width:100%;
+}
+#contact .form table tr th,#contact .form table tr td {
+    padding: 10px 0;
+}
+#contact .form table tr th {
+	padding-right:10px;
+	width: 6rem;
+}
+#contact .form table tr td input,#contact .form table tr td textarea {
+	padding:5px;
+	border: 2px solid #DDD8D8;
+	width: 100%;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    padding: 10px 60px;
+    background: #67CFBE;
+    display: block;
+    float: right;
+    border: none;
+    color: #fff;
+}
 
+#contact .information h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
 
+#contact .information {
+    /* border: 1px dashed #444; */
+    background: #EFEFEF;
+    padding: 20px 30px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#contact .information th {
+    padding-right: 20px;
+}
 
 @media (max-width: 1024px) {
 	#contents {

@@ -106,6 +106,32 @@
   </div>
   
   
+  <div id="contact">
+	  <h2>Contact</h2>
+	  <p>施術をご希望のお客様、またはお問い合わせご希望の方は以下のコンタクト・フォームからご連絡いただくか、
+	  私の電話・メール・FACEBOOKからご連絡ください。</p>
+		<div class="form"><?php echo do_shortcode( '[contact-form-7 id="74" title="コンタクトフォーム"]' ); ?></div>
+  		<div class="information">
+			<table>	
+				<tr>
+					<th>Telephone</th>
+					<td><a href="tel:081500940">081-500-940</a></td>
+				</tr>
+				<tr>
+					<th>E-mail</th>
+					<td><a href="mailto:keisuke.koizumi0604@gmail.com">keisuke.koizumi0604@gmail.com</a></td>
+				</tr>
+				<tr>
+					<th>Facebook</th>
+					<td><a href="https://www.facebook.com/keisuke0604" target="_blank">https://www.facebook.com/keisuke0604</a></td>
+				</tr>
+				
+			</table>
+		</div>
+  </div>
+  
+  
+  
   
   
   
@@ -159,6 +185,5 @@
 		},6000);	
 	})
 </script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll.git"></script>
 </body>
 </html>

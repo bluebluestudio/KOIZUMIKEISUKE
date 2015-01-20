@@ -68,4 +68,4 @@ img { border: none; max-width: 100%;}
 
 /** Footer **/
 
-#footer { width: 100%; padding: 25px 5px; text-align: right; border-top: 1px dashed #eee; margin-top: 50px; color:#afafaf; }
+#footer { width: 100%; padding: 25px 5px; text-align: right; border-top: 1px dashed #eee; margin-top: 50px; color:#afafaf; font-size: 0.8rem;}
