@@ -38,7 +38,9 @@ h3 a {
 #header_container a .sub {
     font-size: 3rem;
 }
-
+div#sidebar {
+    display: none;
+}
 
 /* SLIDE */
 div#slide {
@@ -68,8 +70,8 @@ div#slide {
     padding: 0 50px;
 }
 div#about {
-	border-bottom: 1px solid #F4F4F4;
-	padding-bottom: 40px;
+	/* border-bottom: 1px solid #F4F4F4; */
+	/* padding-bottom: 40px; */
 }
 div#about,div#profile {
     text-align: left;
@@ -88,10 +90,11 @@ div#about h2, div#profile h2, div#service h2, #content h2.news, #access h2,#cont
 
 
 /* PROFILE */
-div#profile, div#service, div#access,div#contact {
+div#news,div#profile, div#service, div#access, div#contact {
 	margin-top: 40px;
 	border-top: 1px solid #F4F4F4;
 	padding-top: 40px;
+	/* overflow: hidden; */
 }
 div#profile .photo {
     width: 168px;

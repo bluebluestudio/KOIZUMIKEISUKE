@@ -48,7 +48,7 @@
 						
 						  <a href="<?php the_permalink(); ?>"class="img_hover_trans"><?php the_post_thumbnail('featured-small'); ?></a>
 						  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-						 <p><?php $temp_arr_content = explode(" ",substr(strip_tags(get_the_content()),0,200)); $temp_arr_content[count($temp_arr_content)-1] = ""; $display_arr_content = implode(" ",$temp_arr_content); echo $display_arr_content; ?><?php if(strlen(strip_tags(get_the_content())) > 200) echo "..."; ?></p>
+						 <p class="hidden"><?php $temp_arr_content = explode(" ",substr(strip_tags(get_the_content()),0,200)); $temp_arr_content[count($temp_arr_content)-1] = ""; $display_arr_content = implode(" ",$temp_arr_content); echo $display_arr_content; ?><?php if(strlen(strip_tags(get_the_content())) > 200) echo "..."; ?></p>
 					   
 					   
 						</div><!--//featured_box-->
