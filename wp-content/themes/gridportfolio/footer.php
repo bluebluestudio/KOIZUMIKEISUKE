@@ -1,5 +1,5 @@
   
-  <div class="clear"></div>
+  
   
   <div id="profile">
   	<h2>Profile</h2>
@@ -135,7 +135,10 @@
   
   
   
-  <div id="footer">Copyright 2015 KEISUKE KOIZUMI. All Rights Reserved.</div>
+  <div id="footer">
+  カンボジアの首都プノンペンの美容室で美容師として活動しています。<br>
+  美容師での施術の他に、メイクアップアーティストとして、現地のファッション雑誌やテレビ番組制作などにも参加しています。<br>
+  Copyright 2015 KEISUKE KOIZUMI. All Rights Reserved.</div>
 
 </div><!--//main_container-->
 </article>
