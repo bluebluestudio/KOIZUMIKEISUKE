@@ -1,204 +1,70 @@
-@charset "UTF-8";
+/*
+Theme Name: Grid Portfolio
+Theme URI: http://www.dessign.net/gridportfolio
+Description: Grid Portfolio Theme for WordPress is stylish, customizable, simple, and readable. Perfect for any illustrator or graphic designer. 
+Version: 2.0
+Author: Marios Lublinski
+Author URI: http://www.dessign.net
+Tags: 2 column theme, white, clean
+*/
 
-/* COMMON */
-html {
-	 height: 100%;
-     
-	 overflow: hidden;
-	}
-html,body {
-    line-height: 1.8;
-    font-size: 14px;
-    font-family:"Roboto Regular","Helvetica Neue",Helvetica,Arial,"游ゴシック","YuGothic","Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro","Meiryo","メイリオ","ＭＳ ゴシック",sans-serif;;
-    color: #666;
-}
-h3 {
-    font-size: 1rem;
-}
+/* Global */
 
-h3 a {
-    font-size: 1rem;
-}
-#header_container {
-	text-align: left;
-	border: none;
-	overflow: hidden;
-}
-#menu_container {
-    border-bottom: 1px dashed #eee;
-}
-#header_container a {
-    font-size: 5rem;
-    text-decoration: none;
-    padding: 40px;
-    display: block;
-    line-height: 3rem;
-}
+* { margin: 0; padding: 0; }
+body { background-color: #edeeee; font-size: 12px; font-family: 'PT Sans', sans-serif; height: 100%; overflow: scroll; background: url(http://blue2-studio.com/wallpaper/img/wallpaper/@1X/black/002.png);}
+#main_container { width: 60%; max-width: 60%; background-color: #fff; margin: 0 0 0 40%; }
+.clear { clear: both; }
+h1,h2,h3,p { margin: 10px 0; }
+h3 { font-size: 11px; color:#525252; }
+.left { float: left; }
+.right { float: right; }
+a { color: #525252; text-decoration: none; }
+a:hover { text-decoration:underline; }
+img { border: none; max-width: 100%; height: auto;}
 
-#header_container a .sub {
-    font-size: 3rem;
-}
-div#sidebar {
-    display: none;
-}
+/* Header */
 
-/* SLIDE */
-div#slide {
-    width: 40%;
-    height: 100%;
-    overflow: hidden;
-    display: block;
-    position: absolute;
-}
-#slide img {
-	display:none;
-	position:absolute;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-}
-#slide .img1 {
-	display:block;
-}
+#menu_container { width: 100%; max-width: 100%; padding: 20px 15px; border-bottom: 1px solid #eee; }
+#menu_container ul { list-style-type: none; }
+#menu_container ul li { float: left; margin: 0 10px; font-size: 11px; }
+#menu_container .left_list { float: left; }
+#menu_container .right_list { float: right; }
+#menu_container .right_list li { margin: 0 5px; }
+
+#header_container { width: 953px; max-width: 100%; padding: 20px 0px 20px 15px; border-bottom: 1px solid #eee; }
+.logo { float: left; }
+#header_container .right_text { float: right; background-color:#afafaf; font-size: 15px; color: #fff; padding: 5px; font-weight: normal; }
+
+#header_category_container { width: 910px; max-width: 100%; background-color: #fff; padding: 1px 29px; color: #fff; margin-top: 5px; margin-bottom: 5px; }
+#header_category_container ul { list-style-type: none; }
+#header_category_container ul li { float: left; margin-right: 20px; font-size: 15px; font-weight: normal; }
+#header_category_container ul li a { color: #fff; }
 
 
+#featured_home_top { width: 910px; max-width: 100%; padding: 1px 29px; display: none;}
+#featured_home_top .home_top_box { width: 284px; float: left; margin-right: 25px; }
+#featured_home_top .home_top_box img { width: 284px; height: 176px; }
+#featured_home_top .last { margin-right: 0px; }
+
+/** Content **/
+
+#content { width: 100%; max-width: 100%; padding: 0 0px; /* float: left; */ margin-top: 15px; overflow: hidden;}
+
+#content .featured_box { /* width: auto; */ float: left; /* margin-right: 50px; */ color:#afafaf; }
+#content .featured_box img { width: 100%; height: auto; }
+#content .featured_box p { font-size: 11px; color:#afafaf; }
+#content .last { margin-right: 0px; }
+#content .first { /* margin-left: 61px; */ }
+
+#content .single { padding-left: 0; /* width: 920px; */ }
+
+ {}
+#content .single h1 { font-size: 13px; }
+
+#content .post_divider { width: 100%; height: 2px; border-bottom: 1px solid #eee; margin: 30px 0; display: none;}
+.nav_container { width: 880px; margin: 15px 0; padding: 0 10px; }
 
 
-/* ABOUT */
-#contents {
-    padding: 0 50px;
-}
-div#about {
-	/* border-bottom: 1px solid #F4F4F4; */
-	/* padding-bottom: 40px; */
-}
-div#about,div#profile {
-    text-align: left;
-    margin-bottom: 20px;/* CSS Document *//* COMMON */html {    font-size: 12px;}#header_container { text-align:center; border: none; overflow: hidden;}#menu_container {    border-bottom: 1px dashed #eee;}#header_container a {    font-size: 3rem;    text-decoration: none;    padding: 40px;    display: block;}/* ABOUT */#contents {    padding: 0 50px;}div#about,div#profile {    text-align: left;    margin-bottom: 80px;}div#about h2,div#profile h2 {    margin-bottom: 20px;    color: #8B8B8B;    font-weight: 100;    font-size: 2rem;    font-style: italic;}/* PROFILE */div#profile { margin-top:80px;}div#profile .photo {    width: 168px;    height: 168px;    border-radius: 0;    overflow: hidden;    margin: 0 30px 20px 10px;    padding: 0;    float: left;}div#profile h1 { font-size:1.6rem;};
-}
+/** Footer **/
 
-
-
-div#about h2, div#profile h2, div#service h2, #content h2.news, #access h2,#contact h2 {
-    margin-bottom: 20px;
-    color: #C0C0C0;
-    font-weight: 100;
-    font-size: 3rem;
-    /* font-style: italic; */
-}
-
-
-/* PROFILE */
-div#news,div#profile, div#service, div#access, div#contact {
-	margin-top: 40px;
-	border-top: 1px solid #F4F4F4;
-	padding-top: 40px;
-	/* overflow: hidden; */
-}
-div#profile .photo {
-    width: 168px;
-    height: 168px;
-    border-radius: 0;
-    overflow: hidden;
-    margin: 0 30px 20px 15px;
-    padding: 0;
-    float: left;
-}
-div#profile h1 {
-	font-size:1.6rem;
-}
-
-
-/* SERVICE */
-div#service
- .list {
-    margin: 0 15px;
-}
-div#service .list tr th,div#service .list tr td {
-    /* border: none; */
-    padding: 16px 10px;
-}
-
-div#service .list table {
-    border-bottom: 1px solid #ddd;
-}
-/* CONTACT */
-#contact .form {
-    margin: 40px 0;
-    overflow: hidden;
-}
-#contact .form table {
-	width:100%;
-}
-#contact .form table tr th,#contact .form table tr td {
-    padding: 10px 0;
-}
-#contact .form table tr th {
-	padding-right:10px;
-	width: 6rem;
-}
-#contact .form table tr td input,#contact .form table tr td textarea {
-	padding:5px;
-	border: 2px solid #DDD8D8;
-	width: 100%;
-}
-button, html input[type=button], input[type=reset], input[type=submit] {
-    padding: 10px 60px;
-    background: #67CFBE;
-    display: block;
-    float: right;
-    border: none;
-    color: #fff;
-}
-
-#contact .information h3 {
-    font-size: 1.4rem;
-    font-weight: 600;
-}
-
-#contact .information {
-    /* border: 1px dashed #444; */
-    background: #EFEFEF;
-    padding: 20px 30px;
-    margin-top: 50px;
-    overflow: hidden;
-}
-
-#contact .information th {
-    padding-right: 20px;
-}
-
-@media (max-width: 1024px) {
-	#contents {
-    width: 100%;
-}
-
-#header_container {
-    width: 100%;
-}
-
-#header_category_container {
-    width: 100%;
-}
-
-#featured_home_top {
-    width: auto;
-}
-
-
-	div#slide {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-#main_container {
-    position: relative;
-    width: 100%;
-    margin: 0;
-    max-width: 100%;
-}
-	
-	
-}
+#footer { width: 100%; padding: 25px 5px; text-align: right; border-top: 1px dashed #eee; margin-top: 50px; color:#afafaf; font-size: 0.8rem;}
