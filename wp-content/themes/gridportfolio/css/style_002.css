@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SLIDE */
+div#slide {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+}
+#slide img {
+	display:none;
+	position:absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+#slide .img1 {
+	display:block;
+}
+
+
+/* COMMON */
+html {
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+}
+#header_container {
+	text-align: left;
+	border: none;
+	overflow: hidden;
+}
+#menu_container {
+    border-bottom: 1px dashed #eee;
+}
+#header_container a {
+    font-size: 5rem;
+    text-decoration: none;
+    padding: 40px;
+    display: block;
+    line-height: 3rem;
+}
+
+#header_container a .sub {
+    font-size: 3rem;
+}
+
+/* ABOUT */
+#contents {
+    padding: 0 50px;
+}
+div#about {
+	border-bottom: 1px solid #F4F4F4;
+	padding-bottom: 40px;
+}
+div#about,div#profile {
+    text-align: left;
+    margin-bottom: 20px;/* CSS Document *//* COMMON */html {    font-size: 12px;}#header_container { text-align:center; border: none; overflow: hidden;}#menu_container {    border-bottom: 1px dashed #eee;}#header_container a {    font-size: 3rem;    text-decoration: none;    padding: 40px;    display: block;}/* ABOUT */#contents {    padding: 0 50px;}div#about,div#profile {    text-align: left;    margin-bottom: 80px;}div#about h2,div#profile h2 {    margin-bottom: 20px;    color: #8B8B8B;    font-weight: 100;    font-size: 2rem;    font-style: italic;}/* PROFILE */div#profile { margin-top:80px;}div#profile .photo {    width: 168px;    height: 168px;    border-radius: 0;    overflow: hidden;    margin: 0 30px 20px 10px;    padding: 0;    float: left;}div#profile h1 { font-size:1.6rem;};
+}
+
+
+
+div#about h2, div#profile h2,div#service h2, #content h2.news, #access h2 {
+    margin-bottom: 20px;
+    color: #C0C0C0;
+    font-weight: 100;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+/* PROFILE */
+div#profile,div#service, div#access {
+	margin-top: 40px;
+	border-top: 1px solid #F4F4F4;
+	padding-top: 40px;
+}
+div#profile .photo {
+    width: 168px;
+    height: 168px;
+    border-radius: 0;
+    overflow: hidden;
+    margin: 0 30px 20px 15px;
+    padding: 0;
+    float: left;
+}
+div#profile h1 {
+	font-size:1.6rem;
+}
+
+
+/* SERVICE */
+div#service
+ .list {
+    margin: 0 15px;
+}
+div#service .list tr th,div#service .list tr td {
+    /* border: none; */
+    padding: 16px 10px;
+}
+
+div#service .list table {
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+@media (max-width: 1024px) {
+	#contents {
+    width: 100%;
+}
+
+#header_container {
+    width: 100%;
+}
+
+#header_category_container {
+    width: 100%;
+}
+
+#featured_home_top {
+    width: auto;
+}
+
+
+	div#slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#main_container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+	
+	
+}

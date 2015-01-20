@@ -1,0 +1,71 @@
+/*
+Theme Name: Grid Portfolio
+Theme URI: http://www.dessign.net/gridportfolio
+Description: Grid Portfolio Theme for WordPress is stylish, customizable, simple, and readable. Perfect for any illustrator or graphic designer. 
+Version: 2.0
+Author: Marios Lublinski
+Author URI: http://www.dessign.net
+Tags: 2 column theme, white, clean
+
+*/
+
+/* Global */
+
+* { margin: 0; padding: 0; }
+body { background-color: #edeeee; font-size: 12px; font-family: 'PT Sans', sans-serif; height: 100%; overflow: scroll; background: url(http://blue2-studio.com/wallpaper/img/wallpaper/@1X/black/002.png);}
+#main_container { width: 60%; max-width: 60%; background-color: #fff; margin: 0 0 0 40%; }
+.clear { clear: both; }
+h1,h2,h3,p { margin: 10px 0; }
+h3 { font-size: 11px; color:#525252; }
+.left { float: left; }
+.right { float: right; }
+a { color: #525252; text-decoration: none; }
+a:hover { text-decoration:underline; }
+img { border: none; max-width: 100%;}
+
+/* Header */
+
+#menu_container { width: 100%; max-width: 100%; padding: 20px 15px; border-bottom: 1px solid #eee; }
+#menu_container ul { list-style-type: none; }
+#menu_container ul li { float: left; margin: 0 10px; font-size: 11px; }
+#menu_container .left_list { float: left; }
+#menu_container .right_list { float: right; }
+#menu_container .right_list li { margin: 0 5px; }
+
+#header_container { width: 953px; max-width: 100%; padding: 20px 0px 20px 15px; border-bottom: 1px solid #eee; }
+.logo { float: left; }
+#header_container .right_text { float: right; background-color:#afafaf; font-size: 15px; color: #fff; padding: 5px; font-weight: normal; }
+
+#header_category_container { width: 910px; max-width: 100%; background-color: #fff; padding: 1px 29px; color: #fff; margin-top: 5px; margin-bottom: 5px; }
+#header_category_container ul { list-style-type: none; }
+#header_category_container ul li { float: left; margin-right: 20px; font-size: 15px; font-weight: normal; }
+#header_category_container ul li a { color: #fff; }
+
+
+#featured_home_top { width: 910px; max-width: 100%; padding: 1px 29px;}
+#featured_home_top .home_top_box { width: 284px; float: left; margin-right: 25px; }
+#featured_home_top .home_top_box img { width: 284px; height: 176px; }
+#featured_home_top .last { margin-right: 0px; }
+
+/** Content **/
+
+#content { width: 100%; max-width: 100%; padding: 0 0px; float: left; margin-top: 15px; }
+
+#content .featured_box { /* width: auto; */ float: left; /* margin-right: 50px; */ color:#afafaf; }
+#content .featured_box img { width: 100%; height: auto; }
+#content .featured_box p { font-size: 11px; color:#afafaf; }
+#content .last { margin-right: 0px; }
+#content .first { /* margin-left: 61px; */ }
+
+#content .single { padding-left: 0; /* width: 920px; */ }
+
+ {}
+#content .single h1 { font-size: 13px; }
+
+#content .post_divider { width: 100%; height: 2px; border-bottom: 1px solid #eee; margin: 30px 0; }
+.nav_container { width: 880px; margin: 15px 0; padding: 0 10px; }
+
+
+/** Footer **/
+
+#footer { width: 100%; padding: 25px 5px; text-align: right; border-top: 1px dashed #eee; margin-top: 50px; color:#afafaf; }
