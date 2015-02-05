@@ -115,13 +115,14 @@
   <div id="access">
   	<h2>Access</h2>
 		<div class="text">
-			<p>現在はフリーランスの美容師として、プノンペン市内の日本人経営の美容室"solist"にて勤務しています。<br>
+			<p>現在はフリーランスの美容師として、プノンペン市内のの美容室"the Dollhouse"にて勤務しています。<br>
 			美容室での活動のほか、ヘアメイク・メイクアップアーティストとしても活動しています。<br>
 			</p>
 		</div>
 		<div class="map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.226067884787!2d104.92680399999998!3d11.558719999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDMzJzMxLjQiTiAxMDTCsDU1JzM2LjUiRQ!5e0!3m2!1sja!2skh!4v1416313843277" width="100%" height="300" frameborder="0"></iframe></div>
 		<div class="text">
 				DOLLHOUSE<br>
+                web site:<a href="http://www.thedollhousecambodia.com/"></a>http://www.thedollhousecambodia.com/</a><br>
 				Opening Hours<br>
                 Tues - Sat : 9am to 7pm<br>
                 Sun : 11am to 7pm<br>
