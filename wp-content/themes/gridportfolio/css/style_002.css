@@ -32,11 +32,12 @@ h3 a {
     text-decoration: none;
     padding: 40px;
     display: block;
-    line-height: 3rem;
+    line-height: 2.8rem;
 }
 
 #header_container a .sub {
-    font-size: 3rem;
+    font-size: 2rem;
+    color: #A3A3A3;
 }
 div#sidebar {
     display: none;

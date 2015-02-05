@@ -19,68 +19,93 @@
   	<h2>Service</h2>
 	<section class="row">
 		<div class="list">
+            <p>以下、出張の場合の金額になります。</p>
 				<table class="table table-striped">
 					<tr>
-						<th>Gentleman</th>
+						<th>Mens cut</th>
+						<td>&#036;18</td>
+					</tr>
+					<tr>
+						<th>Ladies cut</th>
+						<td>&#036;25 to &#036;30</td>
+					</tr>
+					<tr>
+						<th>Childrens cut<br>
+                            Boy under 12 years</th>
+						<td>&#036;13</td>
+					</tr>
+					<tr>
+						<th>Childrens cut<br>
+                            Girl under 12 years</th>
 						<td>&#036;16</td>
 					</tr>
 					<tr>
-						<th>Ladies</th>
-						<td>&#036;19</td>
+						<th>Mens shave</th>
+						<td>&#036;5 to &#036;10</td>
+					</tr>
+				</table>
+                <table class="table table-striped">
+					<tr>
+						<th>Blowdry</th>
+						<td>&#036;20 to &#036;25</td>
 					</tr>
 					<tr>
-						<th>Kids</th>
-						<td>&#036;9</td>
+						<th>Upstyle</th>
+						<td>from &#036;20〜</td>
 					</tr>
 					<tr>
-						<th>Hair color</th>
-						<td>S &#036;32 / M &#036;36 / L &#036;40<br>
-						Japanese product : S &#036;38 / M &#036;44 / L &#036;50
-						</td>
+						<th>Makeup-</th>
+						<td>from &#036;20〜</td>
 					</tr>
 					<tr>
-						<th>Weaving  herf</th>
-						<td>S &#036;24 / M &#036;29 / L &#036;34<br>
-						Japanese product : S &#036;30 / M &#036;35 / L &#036;40</td>
+						<th>Treatments</th>
+						<td>from &#036;10〜</td>
 					</tr>
+				</table>
+                <table class="table table-striped">
 					<tr>
-						<th>Weaving full</th>
-						<td>S &#036;36 / M &#036;41 / L &#036;46<br>
-						Japanese product : S &#036;42 / M &#036;47 / L &#036;52</td>
+						<th>Color roots only</th>
+						<td>from &#036;35 and can be higher</td>
 					</tr>
-					
-					<tr>
-						<th>Bleach</th>
-						<td>S &#036;38 / M &#036;44 / L &#036;50</td>
+                    <tr>
+						<th>Color-full head</th>
+						<td>from &#036;45 and up</td>
 					</tr>
+				</table>
+                <table class="table table-striped">
 					<tr>
-						<th>Perm Cold</th>
-						<td>S &#036;35 / M &#036;39 / L &#036;43<br>
-                        			Point perm : &#036;23 〜 / Bang : &#036;15
-                        </td>
+						<th>Highlights top panel</th>
+						<td>&#036;65〜</td>
 					</tr>
-					<tr>
-						<th>Perm hard</th>
-						<td>S &#036;44 / M &#036;49 / L &#036;54</td>
+                    <tr>
+						<th>1/2 head</th>
+						<td>&#036;75〜</td>
 					</tr>
-					<tr>
-						<th>Perm hot</th>
-						<td>S &#036;50 / M &#036;56 / L &#036;62</td>
+                    <tr>
+						<th>Full head</th>
+						<td>&#036;95〜</td>
 					</tr>
-					
+				</table>
+                <table class="table table-striped">
 					<tr>
-						<th>Straight</th>
-						<td>S &#036;54 / M &#036;60 / L &#036;66<br>
-                        			Point : &#036;32 / Bang : &#036;19
-                        </td>
+						<th>Rebonding</th>
+						<td>from &#036;100〜</td>
 					</tr>
-					<tr>
-						<th>Shampoo & Blow</th>
-						<td>&#036;5<td>
+                    <tr>
+						<th>Brazailian Keratin treatment </th>
+						<td>from &#036;200〜</td>
 					</tr>
-					<tr>
-						<th>Treatment</th>
-						<td>&#036;18<td>
+                    <tr>
+						<th>Mani/pedi</th>
+						<td>&#036;8</td>
+					</tr>
+                    <tr>
+						<th>Mani</th>
+						<td>&#036;5</td>
+					</tr>
+                    <tr>
+						<th>Pedi</th>
+						<td>&#036;5</td>
 					</tr>
 				</table>
 		</div>
@@ -90,19 +115,22 @@
   <div id="access">
   	<h2>Access</h2>
 		<div class="text">
-			<p>現在はフリーランスの美容師として、プノンペン市内の日本人経営の美容室"solist"にて勤務しています。<br>
+			<p>現在はフリーランスの美容師として、プノンペン市内のの美容室"the Dollhouse"にて勤務しています。<br>
 			美容室での活動のほか、ヘアメイク・メイクアップアーティストとしても活動しています。<br>
 			</p>
 		</div>
 		<div class="map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.226067884787!2d104.92680399999998!3d11.558719999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDMzJzMxLjQiTiAxMDTCsDU1JzM2LjUiRQ!5e0!3m2!1sja!2skh!4v1416313843277" width="100%" height="300" frameborder="0"></iframe></div>
 		<div class="text">
-				solist<br>
-				9:00-20:00 Close/Tuesday<br>
-				0236373202<br>
-				2F #09, St242, Sangkat Chaktomuk, Khan Daun Penh, Phnom Penh, Cambodia<br>
-				<a href="https://www.facebook.com/pages/solist/1483064085301388?fref=ts">https://www.facebook.com/pages/solist/1483064085301388?fref=ts</a>
-		</div>
-		
+				DOLLHOUSE<br>
+                web site:<a href="http://www.thedollhousecambodia.com/"></a>http://www.thedollhousecambodia.com/</a><br>
+				Opening Hours<br>
+                Tues - Sat : 9am to 7pm<br>
+                Sun : 11am to 7pm<br>
+                Closed on Mondays<br>
+				TEL:+855 16 62 0907,+855 10 32 9999<br>
+				46AEO,Street322,Sangkat Boeng Keng Kang1,Khan Chamkarmon,Phnom Penh<br>
+				<a href="https://www.facebook.com/pages/The-Dollhouse-Cambodia/162271240483607">Our Facebook</a>
+		</div>	
   </div>
   
   
@@ -125,7 +153,6 @@
 					<th>Facebook</th>
 					<td><a href="https://www.facebook.com/keisuke0604" target="_blank">https://www.facebook.com/keisuke0604</a></td>
 				</tr>
-				
 			</table>
 		</div>
   </div>
