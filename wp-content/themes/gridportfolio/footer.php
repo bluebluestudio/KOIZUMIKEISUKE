@@ -19,68 +19,93 @@
   	<h2>Service</h2>
 	<section class="row">
 		<div class="list">
+            <p>以下、出張の場合の金額になります。</p>
 				<table class="table table-striped">
 					<tr>
-						<th>Gentleman</th>
+						<th>Mens cut</th>
+						<td>&#036;18</td>
+					</tr>
+					<tr>
+						<th>Ladies cut</th>
+						<td>&#036;25 to &#036;30</td>
+					</tr>
+					<tr>
+						<th>Childrens cut<br>
+                            Boy under 12 years</th>
+						<td>&#036;13</td>
+					</tr>
+					<tr>
+						<th>Childrens cut<br>
+                            Girl under 12 years</th>
 						<td>&#036;16</td>
 					</tr>
 					<tr>
-						<th>Ladies</th>
-						<td>&#036;19</td>
+						<th>Mens shave</th>
+						<td>&#036;5 to &#036;10</td>
+					</tr>
+				</table>
+                <table class="table table-striped">
+					<tr>
+						<th>Blowdry</th>
+						<td>&#036;20 to &#036;25</td>
 					</tr>
 					<tr>
-						<th>Kids</th>
-						<td>&#036;9</td>
+						<th>Upstyle</th>
+						<td>from &#036;20〜</td>
 					</tr>
 					<tr>
-						<th>Hair color</th>
-						<td>S &#036;32 / M &#036;36 / L &#036;40<br>
-						Japanese product : S &#036;38 / M &#036;44 / L &#036;50
-						</td>
+						<th>Makeup-</th>
+						<td>from &#036;20〜</td>
 					</tr>
 					<tr>
-						<th>Weaving  herf</th>
-						<td>S &#036;24 / M &#036;29 / L &#036;34<br>
-						Japanese product : S &#036;30 / M &#036;35 / L &#036;40</td>
+						<th>Treatments</th>
+						<td>from &#036;10〜</td>
 					</tr>
+				</table>
+                <table class="table table-striped">
 					<tr>
-						<th>Weaving full</th>
-						<td>S &#036;36 / M &#036;41 / L &#036;46<br>
-						Japanese product : S &#036;42 / M &#036;47 / L &#036;52</td>
+						<th>Color roots only</th>
+						<td>from &#036;35 and can be higher</td>
 					</tr>
-					
-					<tr>
-						<th>Bleach</th>
-						<td>S &#036;38 / M &#036;44 / L &#036;50</td>
+                    <tr>
+						<th>Color-full head</th>
+						<td>from &#036;45 and up</td>
 					</tr>
+				</table>
+                <table class="table table-striped">
 					<tr>
-						<th>Perm Cold</th>
-						<td>S &#036;35 / M &#036;39 / L &#036;43<br>
-                        			Point perm : &#036;23 〜 / Bang : &#036;15
-                        </td>
+						<th>Highlights top panel</th>
+						<td>&#036;65〜</td>
 					</tr>
-					<tr>
-						<th>Perm hard</th>
-						<td>S &#036;44 / M &#036;49 / L &#036;54</td>
+                    <tr>
+						<th>1/2 head</th>
+						<td>&#036;75〜</td>
 					</tr>
-					<tr>
-						<th>Perm hot</th>
-						<td>S &#036;50 / M &#036;56 / L &#036;62</td>
+                    <tr>
+						<th>Full head</th>
+						<td>&#036;95〜</td>
 					</tr>
-					
+				</table>
+                <table class="table table-striped">
 					<tr>
-						<th>Straight</th>
-						<td>S &#036;54 / M &#036;60 / L &#036;66<br>
-                        			Point : &#036;32 / Bang : &#036;19
-                        </td>
+						<th>Rebonding</th>
+						<td>from &#036;100〜</td>
 					</tr>
-					<tr>
-						<th>Shampoo & Blow</th>
-						<td>&#036;5<td>
+                    <tr>
+						<th>Brazailian Keratin treatment </th>
+						<td>from &#036;200〜</td>
 					</tr>
-					<tr>
-						<th>Treatment</th>
-						<td>&#036;18<td>
+                    <tr>
+						<th>Mani/pedi</th>
+						<td>&#036;8</td>
+					</tr>
+                    <tr>
+						<th>Mani</th>
+						<td>&#036;5</td>
+					</tr>
+                    <tr>
+						<th>Pedi</th>
+						<td>&#036;5</td>
 					</tr>
 				</table>
 		</div>
@@ -127,7 +152,6 @@
 					<th>Facebook</th>
 					<td><a href="https://www.facebook.com/keisuke0604" target="_blank">https://www.facebook.com/keisuke0604</a></td>
 				</tr>
-				
 			</table>
 		</div>
   </div>
