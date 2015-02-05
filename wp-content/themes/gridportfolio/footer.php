@@ -96,13 +96,15 @@
 		</div>
 		<div class="map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.226067884787!2d104.92680399999998!3d11.558719999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDMzJzMxLjQiTiAxMDTCsDU1JzM2LjUiRQ!5e0!3m2!1sja!2skh!4v1416313843277" width="100%" height="300" frameborder="0"></iframe></div>
 		<div class="text">
-				solist<br>
-				9:00-20:00 Close/Tuesday<br>
-				0236373202<br>
-				2F #09, St242, Sangkat Chaktomuk, Khan Daun Penh, Phnom Penh, Cambodia<br>
-				<a href="https://www.facebook.com/pages/solist/1483064085301388?fref=ts">https://www.facebook.com/pages/solist/1483064085301388?fref=ts</a>
-		</div>
-		
+				DOLLHOUSE<br>
+				Opening Hours<br>
+                Tues - Sat : 9am to 7pm<br>
+                Sun : 11am to 7pm<br>
+                Closed on Mondays<br>
+				TEL:+855 16 62 0907,+855 10 32 9999<br>
+				46AEO,Street322,Sangkat Boeng Keng Kang1,Khan Chamkarmon,Phnom Penh<br>
+				<a href="https://www.facebook.com/pages/The-Dollhouse-Cambodia/162271240483607">Our Facebook</a>
+		</div>	
   </div>
   
   
