@@ -27,7 +27,7 @@
 					</tr>
 					<tr>
 						<th>Ladies cut</th>
-						<td>&#036;25 to &#036;30</td>
+						<td>&#036;20 to &#036;25</td>
 					</tr>
 					<tr>
 						<th>Childrens cut<br>
@@ -119,10 +119,10 @@
 			美容室での活動のほか、ヘアメイク・メイクアップアーティストとしても活動しています。<br>
 			</p>
 		</div>
-		<div class="map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.226067884787!2d104.92680399999998!3d11.558719999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDMzJzMxLjQiTiAxMDTCsDU1JzM2LjUiRQ!5e0!3m2!1sja!2skh!4v1416313843277" width="100%" height="300" frameborder="0"></iframe></div>
+		<div class="map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.010754086302!2d104.92586!3d11.551086000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951259f3151b1%3A0x467cfe1af493dd6b!2z4Z6K4Z65IOGejOGevOGem-GeoOGfheGen-Gfjw!5e0!3m2!1sja!2sjp!4v1423103062035" width="100%" height="300" frameborder="0"></iframe></div>
 		<div class="text">
 				DOLLHOUSE<br>
-                web site:<a href="http://www.thedollhousecambodia.com/"></a>http://www.thedollhousecambodia.com/</a><br>
+                <a href="http://www.thedollhousecambodia.com/"></a>http://www.thedollhousecambodia.com/</a><br>
 				Opening Hours<br>
                 Tues - Sat : 9am to 7pm<br>
                 Sun : 11am to 7pm<br>
